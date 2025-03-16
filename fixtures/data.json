@@ -1,0 +1,57 @@
+[
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": 1,
+      "isbn": "978-0439708180",
+      "category": "Fantasy",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "1984",
+      "author": 2,
+      "isbn": "978-0451524935",
+      "category": "Dystopian",
+      "availability_status": false
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 3,
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "author": 3,
+      "isbn": "978-0007119318",
+      "category": "Mystery",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "Foundation",
+      "author": 4,
+      "isbn": "978-0553293357",
+      "category": "Science Fiction",
+      "availability_status": false
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Shining",
+      "author": 5,
+      "isbn": "978-0307743657",
+      "category": "Horror",
+      "availability_status": true
+    }
+  }
+]
