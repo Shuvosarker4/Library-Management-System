@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from library.models import Author,Book,Member,BorrowRecord
 
+
 class AuthorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Author
